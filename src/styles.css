@@ -267,13 +267,6 @@ a:active {
   font-weight: bold;
 }
 
-.contact_input, .contact_textarea {
-  padding: 0.5em;
-  border-radius: var(--BORDER-RADIUS);
-  border-width: 2px;
-  width: 100%;
-}
-
 .contact_button {
   padding: 0.5em;
   border-radius: var(--BORDER-RADIUS);
