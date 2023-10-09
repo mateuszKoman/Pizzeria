@@ -1,8 +1,9 @@
-input {
+textarea {
   padding: 0.5em;
   border-radius: var(--BORDER-RADIUS);
-  border: 1.5px solid rgb(118, 118, 118) ;
+  border-width: 1.5px;
   width: 55%;
-  background-color: var(--BODY-BGCOLOR);
+  height: 200px;
   color: var(--FONT-COLOR);
+  background-color: var(--BODY-BGCOLOR);
 }

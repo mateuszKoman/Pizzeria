@@ -9,6 +9,7 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { CommonModule } from '@angular/common';
 import { InputComponent } from 'src/app/input/input.component';
 import { FooterComponent } from 'src/app/footer/footer.component';
+import { TextAreaComponent } from 'src/app/textArea/textArea.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from 'src/app/footer/footer.component';
     ShoppingCartPageComponent,
     HeaderComponent,
     InputComponent,
-    FooterComponent
+    FooterComponent,
+    TextAreaComponent
   ],
   imports: [
     BrowserModule,
