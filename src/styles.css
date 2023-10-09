@@ -70,7 +70,7 @@ input, button, textarea {
     --FONT-COLOR: whitesmoke;
     --HIGHLIGHT-COLOR: whitesmoke;
     --BORDER-COLOR: whitesmoke;
-    --LINK-COLOR: whitesmoke;
+    --LINK-COLOR: black;
     --LINK-HOVER: orange;
     --LINK-ACTIVE: rgb(252, 200, 103);
     --BUTTON-COLOR: #000;
@@ -130,6 +130,7 @@ p {
 a:any-link {
   color: var(--LINK-COLOR);
   text-decoration: none;
+  font-family: var(--FF-HEADINGS);
 }
 
 a:hover, a:focus-visible {
@@ -252,6 +253,10 @@ a:active {
 
 .contact_h2 {
   margin: 0;
+}
+
+#phone {
+  color: var(--HEADER-COLOR);
 }
 
 .contact_fieldset {
