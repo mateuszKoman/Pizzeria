@@ -1,1 +1,186 @@
-<header></header>
+<div id="home">
+  <section class="hero">
+    <h2 class="hero_h2">Bienvenidos</h2>
+    <figure>
+      <figcaption class="offscreen">
+        Pizza and Drink
+      </figcaption>
+    </figure>
+  </section>
+  <img src="./assets/PizzaWelcome.jpg" alt="Pizza Welcome" width="1500" height="1000">
+</div>
+<div id="menu" class="main">
+  <article class="main_article menu">
+    <h2 class="menu_h2">Our Menu</h2>
+    <table class="menu_container">
+      <caption class="offscreen">Our Tacos</caption>
+      <thead>
+      <tr>
+        <th class="menu_header" scope="col">Tacos</th>
+        <th class="menu_header" scope="col">Quantity</th>
+        <th class="menu_header" scope="col">Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th class="menu_item menu_cr" scope="row" rowspan="3">
+          Crunchy
+        </th>
+        <td class="menu_item">1</td>
+        <td class="menu_item">$1.50</td>
+      </tr>
+      <tr>
+        <td class="menu_item">2</td>
+        <td class="menu_item">$2.50</td>
+      </tr>
+      <tr>
+        <td class="menu_item">3</td>
+        <td class="menu_item">$3.25</td>
+      </tr>
+      <tr>
+        <th class="menu_item menu_sf" scope="row" rowspan="3">
+          Soft
+        </th>
+        <td class="menu_item">1</td>
+        <td class="menu_item">$2.00</td>
+      </tr>
+      <tr>
+        <td class="menu_item">2</td>
+        <td class="menu_item">$3.50</td>
+      </tr>
+      <tr>
+        <td class="menu_item">3</td>
+        <td class="menu_item">$4.50</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td class="menu_item menu_cs" colspan="3">
+          Chips &amp; Salsa $2
+        </td>
+      </tr>
+      </tfoot>
+    </table>
+  </article>
+</div>
+
+<div id="hours" class="main">
+  <article class="main_article hours">
+    <h2 class="hours_h2">
+      Opening Hours
+    </h2>
+    <p class="hours_p">
+      We are open 7 days a week !
+    </p>
+    <div class="hours_div">
+      <p class="opening_days">
+        Sunday - Thursday
+      </p>
+      <p class="opening_hours">
+        11:00 - 21:00
+      </p>
+    </div>
+    <div class="hours_div">
+      <p class="opening_days">
+        Friday - Saturday
+      </p>
+      <p class="opening_hours">
+        11:00 - 23:00
+      </p>
+    </div>
+  </article>
+</div>
+
+<div id="contact" class="main">
+  <article class="main_article contact">
+    <h2 class="contact_h2">Our Location</h2>
+    <address>
+      555 Taco Temptation Lane, Suite T<br>
+      Kansas City, MO 55555-5555
+      <br><br>
+      Phone: <a href="tel:+5555555555">555-555-5555</a>
+    </address>
+  </article>
+  <hr>
+  <article class="main_article">
+    <h2>Our Contact Form</h2>
+    <form action="https://httpbin.org/get" method="get" class="contact_form">
+      <fieldset class="contact_fieldset">
+        <legend class="offscreen">Send Us A Message</legend>
+        <p class="contact_p">
+          <label class="contact_label" for="name">Name:</label>
+          <input class="contact_input" type="text" name="name" id="name" placeholder="your name" required>
+        </p>
+        <p class="contact_p">
+          <label class="contact_label" for="email">Email:</label>
+          <input class="contact_input" type="email" name="email" id="email" placeholder="your email" required>
+        </p>
+        <p class="contact_p">
+          <label class="contact_label" for="message">Your Message:</label>
+          <br>
+          <textarea class="contact_textarea" name="message" id="message" cols="30" rows="10"
+                    placeholder="Type your message here"></textarea>
+        </p>
+      </fieldset>
+      <button class="contact_button" type="submit">Send</button>
+      <button class="contact_button" type="reset">Reset</button>
+    </form>
+  </article>
+</div>
+
+<div class="main">
+  <article id="about" class="main_article about">
+    <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+    <p>
+      Pizzeria Trattoria was founded in 2023. Pizza is a dish of Italian origin consisting of a usually round,
+      flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients
+      (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham,
+      etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.
+    </p>
+    <aside class="about_trivia">
+      <h3>Pizza Trivia</h3>
+      <details>
+        <summary>What is the hottest pizza in the world ?</summary>
+        <p class="about_trivia_answer">
+          World's Hottest Pizza.....It’s called the Saltdean Sizzler, and according to recent tests performed by the Warwick University, it’s three times
+          hotter than the world’s strongest chili and even police pepper spray. That makes it the spiciest pizza on Earth. created by Paul Brayshaw, of Paul’s
+          Pizza, in Saltdean, England, a self-confessed spicy food fanatic and fan of the Man vs Food TV show .
+          (Source:
+          <a href="https://www.odditycentral.com/foods/worlds-hottest-pizza-is-three-times-stronger-than-police-pepper-spray.html">
+            Odditycentral
+          </a>)
+        </p>
+      </details>
+      The oldest recorded usage of the word "pizza" is from a Latin text from the town of Gaeta, then still part of the Byzantine Empire, in 997 AD; the text
+      states that a tenant of certain property is to give the bishop of Gaeta duodecim pizze ("twelve pizzas") every Christmas Day, and another twelve every
+      Easter Sunday.[2][13]
+
+      Suggested etymologies include:
+
+      Byzantine Greek and Late Latin pitta > pizza, cf. Modern Greek pitta bread and the Apulia and Calabrian (then Byzantine Italy) pitta,[14] a round flat
+      bread baked in the oven at high temperature sometimes with toppings. The word pitta can in turn be traced to either Ancient Greek πικτή (pikte),
+      "fermented pastry", which in Latin became "picta", or Ancient Greek πίσσα (pissa, Attic πίττα, pitta), "pitch",[15][16] or πήτεα (pḗtea), "bran" (πητίτης
+      pētítēs, "bran bread").[17]
+      The Etymological Dictionary of the Italian Language explains it as coming from dialectal pinza "clamp", as in modern Italian pinze "pliers, pincers,
+      tongs, forceps". Their origin is from Latin pinsere "to pound, stamp".[18]
+      The Lombardic word bizzo or pizzo meaning "mouthful" (related to the English words "bit" and "bite"), which was brought to Italy in the middle of the 6th
+      century AD by the invading Lombards.[2][19] The shift b>p could be explained by the High German consonant shift, and it has been noted in this connection
+      that in German the word Imbiss means "snack".
+      A small pizza is sometimes called a "pizzetta".[20] A person who makes pizza is known as a "pizzaiolo".[21]
+
+      Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from
+      combining with the dough, and producing a crust that can be frozen and reheated without becoming rigid. There are frozen pizzas with raw ingredients and
+      self-rising crusts.
+
+      Another form of pizza is available from take and bake pizzerias. This pizza is assembled in the store, then sold unbaked to customers to bake in their own
+      ovens. Some grocery stores sell fresh dough along with sauce and basic ingredients, to assemble at home before baking in an oven.
+
+    </aside>
+  </article>
+</div>
+<footer class="footer">
+  <p>
+    <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+    <span class="nowrap">The Little Taco Shop</span>
+  </p>
+</footer>

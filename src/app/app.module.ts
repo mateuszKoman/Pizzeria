@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from 'src/app/header/header.component';
 import { WelcomePageComponent } from 'src/app/pages/welcomePage/welcomePage.component';
 import { ShoppingCartPageComponent } from 'src/app/pages/shoppingCartPage/shoppingCartPage.component';
+import { AppRoutingModule } from 'src/app/app-routing.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -12,10 +14,11 @@ import { ShoppingCartPageComponent } from 'src/app/pages/shoppingCartPage/shoppi
     WelcomePageComponent,
     ShoppingCartPageComponent,
     HeaderComponent
-
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
